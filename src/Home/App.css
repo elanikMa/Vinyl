@@ -1,0 +1,109 @@
+video {
+   /* width: 100vw;*/
+    width: 100%; 
+    height: 70vh;
+    object-fit: cover;
+    /* position: fixed; 
+    top: 0;
+    left: 0; */
+    /* z-index: -1;  */
+    position: relative;
+    overflow: hidden;
+}
+
+.textMariaBlock {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.textStyle {
+    margin-top: 0;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing:2px;
+    color: #343A40;
+    font-size: 20px;
+    text-align: center;
+}
+
+.positionImage {
+    position:relative;
+    margin-bottom: 15px;
+}
+
+.textBlockInFoto {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+
+.fonTextInFoto {
+    padding: 7px;
+    border: 2px solid aliceblue;
+    background-color: rgba(134,132,128, 0.7);
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.shopVinyl {
+    position: absolute;
+    /* top: 56%; */
+    left: 3%;
+    bottom: 1%;
+}
+.shopTurntables {
+    position: absolute;
+    /* top: 56%; */
+    right: 3%;
+    bottom: 4%;
+}
+
+.shopAccessories{
+    position: absolute;
+    /* top: 56%; */
+    left: 35%;
+    bottom: 30%;
+}
+
+.playTogether{
+    position: absolute;
+    left: 35%;
+    top:1%;
+}
+
+.blockAllFoto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blockTwoFoto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+.headingContact {
+    display: flex;
+    justify-content: center;
+}
+
+.blockContact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.allContact {
+    margin-top: 30px;
+    background-color: #DDDDDD;
+    color:#343A40;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+}
+

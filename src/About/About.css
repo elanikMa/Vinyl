@@ -1,0 +1,44 @@
+.pictureCss { 
+width: 100%;
+height: 95vh;
+/* height: 500px; */
+}
+
+.buttonNextBack {
+    font-size: 25px;
+    background-color: rgba(134,132,128, 0.5);
+    border: none;
+    padding: 10px;
+}
+
+.styleButtonOicture {
+ position:relative;
+    margin-bottom: 15px;
+}
+
+.next {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.back {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.textAbout {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.textStyleAbout{
+     width: 50%;
+     font-family: 'Bebas Neue', cursive;
+     letter-spacing:2px;
+     color: #343A40;
+     font-size: 20px;
+     text-align: center;
+}

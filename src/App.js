@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import AllAbout from "./About/AllAbout";
 import './App.css';
+import PageContact from "./Contact/PageContact";
+import FirstPageAll from "./Home/FirstPageAll";
+import AllShop from "./Shop/AllShop";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  return <Router> 
+<nav className="navAll navFon"> 
+
+<Link className="heading" to="/"> TREASURE </Link>
+<Link className="styleTextNav" to="./shop"> Shop </Link>
+<Link className="styleTextNav" to="./about"> About </Link>
+<Link className="styleTextNav" to='./contact'> Contact </Link>
+
+</nav>
+
+<Routes> 
+  <Route path="/" element={<FirstPageAll />}/> 
+  <Route path="/contact" element={<PageContact />}/> 
+  <Route path="/about" element={<AllAbout />}/> 
+  <Route path="/shop" element={<AllShop />}/> 
+
+</Routes>
+
+</Router>
+
 }
 
 export default App;
