@@ -20,7 +20,7 @@ function App() {
 
 <Link className="heading" to="/"> TREASURE </Link>
 <Link className="styleTextNav" to="./shop"> Shop </Link>
-<Link className="styleTextNav" to="./about"> About </Link>
+<Link className="styleTextNav" to="./about"> About usgit init</Link>
 <Link className="styleTextNav" to='./contact'> Contact </Link>
 
 </nav>
