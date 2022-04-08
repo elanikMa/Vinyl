@@ -1,9 +1,7 @@
-
 .navAll {
     display: flex;
     justify-content: flex-end;
 }
-
 .heading {
     margin-right: auto;
     text-decoration: none;
@@ -20,7 +18,6 @@
     margin-right: 30px;
     margin-top: 10px;
 }
-
 .navFon {
     margin-bottom: 15px;
     background-color: rgba(253,252,250, 0.9);
@@ -29,7 +26,6 @@
     text-align: center;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
-
 .FirstPageAll {
 margin: 184px;
 }
