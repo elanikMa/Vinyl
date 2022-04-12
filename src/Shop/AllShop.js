@@ -3,6 +3,7 @@ import ShopInSait from "./ShopInSait";
 import { useState } from 'react';
 import { dataShop } from './dataShop';
 import ButtonAll from "./ButtonAll";
+import Contact from "../Home/Contact";
 
 function AllShop () {
 
@@ -27,6 +28,9 @@ const allShopButton = () => {
           <div> 
         <ShopInSait items = {firstShop} />
         </div> 
+        <div> 
+          <Contact />
+        </div>
 </div>
 )
 }
