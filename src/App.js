@@ -16,12 +16,10 @@ function App() {
 
 return <Router> 
 <nav className="navAll navFon"> 
-
 <Link className="heading" to="/"> TREASURE </Link>
 <Link className="styleTextNav" to="./shop"> Shop </Link>
 <Link className="styleTextNav" to="./about"> About usgit init</Link>
 <Link className="styleTextNav" to='./contact'> Contact </Link>
-
 </nav>
 
 <Routes> 
@@ -30,6 +28,7 @@ return <Router>
   <Route path="/about" element={<AllAbout />}/> 
   <Route path="/shop" element={<AllShop />}/> 
 </Routes>
+
 </Router>
 }
 

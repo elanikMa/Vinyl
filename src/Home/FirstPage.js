@@ -1,10 +1,9 @@
 import video from './vinyl.mp4';
 import './App.css';
-import FirstPageBlock from './FirstPageBlock';
 
 function FirstPage() {
 
-    return( <div> 
+return( <div> 
 <div> 
 <video autoPlay muted loop> 
 <source src={video} type='video/mp4' />
