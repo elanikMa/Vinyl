@@ -34,3 +34,29 @@
     color:#343A40;  
 }
 
+
+@media all and (max-width:800px) {
+    .buttonShop{
+        padding: 10px;
+        font-size: 18px;
+        margin-right: 1px;
+    }
+
+    img{
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .buttonShop{
+        padding: 10px;
+        font-size: 15px;
+        margin-right: 1px;
+    }
+
+    img{
+        width: 230px;
+        height: 190px;
+    } 
+}
