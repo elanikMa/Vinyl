@@ -142,5 +142,4 @@ export const dataShop = [
         searchTerm: 'records',
         image: fotoSevenSeven
     }
-
 ]

@@ -1,7 +1,6 @@
 import './App.css';
 function Contact() {
 
-    
 return(
 <div className='allContact'> 
 <div className="headingContact"> 

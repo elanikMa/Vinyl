@@ -12,10 +12,9 @@ import FirstPageAll from "./Home/FirstPageAll";
 import AllShop from "./Shop/AllShop";
 
 
-
 function App() {
 
-  return <Router> 
+return <Router> 
 <nav className="navAll navFon"> 
 
 <Link className="heading" to="/"> TREASURE </Link>
@@ -30,11 +29,8 @@ function App() {
   <Route path="/contact" element={<PageContact />}/> 
   <Route path="/about" element={<AllAbout />}/> 
   <Route path="/shop" element={<AllShop />}/> 
-
 </Routes>
-
 </Router>
-
 }
 
 export default App;

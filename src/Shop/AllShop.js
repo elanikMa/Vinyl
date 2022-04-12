@@ -2,8 +2,7 @@ import ShopButton from "./ShopButton";
 import ShopInSait from "./ShopInSait";
 import { useState } from 'react';
 import { dataShop } from './dataShop';
-
-
+import ButtonAll from "./ButtonAll";
 
 function AllShop () {
 
@@ -14,14 +13,22 @@ const shopFilter = (searchTerm) => {
 setFirstShop(newShopFilter);  
 }
 
+const allShopButton = () => {
+  setFirstShop(dataShop);
+}
+
+
     return(
-        <div> 
-            
-         <ShopButton itemsButton = {shopFilter}  />
-         <ShopInSait items = {firstShop} />
-         
-        </div>
-    )
+<div> 
+        <div className="d"> 
+        <ButtonAll itemsButtonAll = {allShopButton} />   
+        <ShopButton itemsButton = {shopFilter}  />
+        </div> 
+          <div> 
+        <ShopInSait items = {firstShop} />
+        </div> 
+</div>
+)
 }
 
 export default AllShop;

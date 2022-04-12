@@ -5,36 +5,35 @@ background-size: cover;
 height: 100vh;
 }
 
-
 .headingContact {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .blockContact {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 25px;
-    flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+margin-bottom: 25px;
+flex-wrap: wrap;
 }
 
 .allContactTwo {
-    width: 50%;
-    background-color: rgba(226, 226, 226, 0.7); 
-    color:#343A40;
-    font-family: 'Bebas Neue', cursive;
-    padding: 10px;
-    margin-top: 4%;
-    text-align: center;
-    font-size: 20px;
+width: 50%;
+background-color: rgba(226, 226, 226, 0.7); 
+color:#343A40;
+font-family: 'Bebas Neue', cursive;
+padding: 10px;
+margin-top: 4%;
+text-align: center;
+font-size: 20px;
 }
 
 .fonDivContact {
-   display: flex;
-   justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .textP {
-    color:#343A40;
-    font-family: 'Bebas Neue', cursive;
+color:#343A40;
+font-family: 'Bebas Neue', cursive;
 }

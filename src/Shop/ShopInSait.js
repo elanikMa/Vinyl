@@ -4,7 +4,7 @@ import './Shop.css';
 function ShopInSait({items}) {
 
 return(
-        <div className='blockShopPosition' >
+    <div className='blockShopPosition' >
 {items.map((element => {
 const {id, price, image, searchTerm, nameShop} = element;    
 
@@ -19,7 +19,7 @@ return(
 
 }))
 }
-        </div>
+    </div>
     )
 }
 

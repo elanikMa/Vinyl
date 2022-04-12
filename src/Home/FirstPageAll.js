@@ -10,7 +10,6 @@ return(
 <Contact />
     </div>
 )
-
 }
 
 export default FirstPageAll;
