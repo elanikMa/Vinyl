@@ -29,3 +29,28 @@
 .FirstPageAll {
 margin: 184px;
 }
+
+@media all and (max-width:800px) {
+    .styleTextNav {
+        padding: 7px;
+        font-size: 13px;
+    }
+    .heading {
+        font-size: 30px;
+        padding: 6px;
+        margin-left: 10px;
+    }
+}
+
+
+@media all and (max-width:500px) {
+    .styleTextNav {
+        padding: 7px;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    .heading {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}

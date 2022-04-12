@@ -37,3 +37,11 @@ justify-content: center;
 color:#343A40;
 font-family: 'Bebas Neue', cursive;
 }
+@media all and (max-width:800px) {
+
+    .allContactTwo {
+        margin-top: 14%;
+        font-size: 15px;
+        width: 65%;
+        }
+    }
